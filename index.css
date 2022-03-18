@@ -1,0 +1,17 @@
+body {
+    background-color: #24282b;
+    font-family: 'Bai Jamjuree', sans-serif;
+    line-height: normal;
+    color: whitesmoke;
+    position: relative;
+
+}
+div.navbar {
+    background-color: transparent;
+    width: 99.9vw;
+    height: 6vh;
+    border: 1px solid salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
