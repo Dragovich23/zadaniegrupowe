@@ -6,12 +6,22 @@ body {
     position: relative;
 
 }
+div {
+    border: 1px solid salmon;
+}
 div.navbar {
     background-color: transparent;
     width: 99.9vw;
     height: 6vh;
-    border: 1px solid salmon;
+
     display: flex;
     align-items: center;
+    justify-content: center;
+}
+div.bar {
+    padding: 6px;
+     margin: 8px 40px 8px 40px;
+}
+img {
     justify-content: center;
 }
