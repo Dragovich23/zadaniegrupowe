@@ -4,62 +4,158 @@ body {
     line-height: normal;
     color: whitesmoke;
     position: relative;
-
 }
-div {
-    border: 1px solid salmon;
-    margin: 10px;
-    padding: 10px;
-}
-div.navbar {
-    background-color: transparent;
-    width: 99.9vw;
-    height: 50px;
-    padding: 0px;
-    display: flex;
-    align-items: center;
+.containter-title-top5{
+    max-height: 100%;
+    min-height: 50%;
     justify-content: center;
 }
-a {
-    text-decoration: none;
+.title-top5{
+    text-align: center;
+}
+.navbar {
+border: 1px solid darksalmon;
+color: whitesmoke;
+}
+.a {
     color: whitesmoke;
-}
-.bar {
-    padding: 6px;
-     margin: 8px 3vw 8px 3vw;
-}
-.a::before {
-    content: '';
-    position: absolute;
-    width: 100%;
-    height: 4px;
-    border-radius: 4px;
-    background-color: whitesmoke;
-    bottom: 0;
-    left: 0;
-    transform-origin: right;
-    transform: scaleX(0);
-    transition: transform .3s ease-in-out;
-  }
-  
-  .bar:hover::before {
-    transform-origin: left;
-    transform: scaleX(1);
-  }
-  
-.srodek {
-    justify-content: center;
-    margin: auto;
-}
-.bezramki {
-    border: 0px transparent;
 }
 .kontener {
     width: 700px;
     max-width: 100%;
     min-width: 20%;
     margin: auto;
+    border: 1px solid darksalmon;
+    padding: 10px;
 }
-p.srodek {
-    margin-top: 10px;
+
+
+
+
+
+
+
+
+
+@keyframes applefttop{
+    0%{
+        opacity: 0;
+        transform: translateY(500px);
+        border-radius: 50px;
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        border-radius: 50px;
+    }
+    80%{
+        transform: rotate(45deg);
+        border-radius: 30px;
+    }
+    100%{
+        transform:rotate(45deg)  scaleX(5);
+    }
+}
+@keyframes apprighttop{
+    0%{
+        opacity: 0;
+        transform: translateY(-500px);
+        border-radius: 50px;
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        border-radius: 50px;
+    }
+    80%{
+        transform: rotate(-45deg);
+        border-radius: 30px;
+    }
+    100%{
+        transform:rotate(-45deg)  scaleX(5);
+    }
+}
+@keyframes appleftbot{
+    0%{
+        opacity: 0;
+        transform: translateY(-500px);
+        border-radius: 50px;
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        border-radius: 50px;
+    }
+    80%{
+        transform: rotate(45deg);
+        border-radius: 30px;
+    }
+    100%{
+        transform:rotate(45deg)  scaleX(5);
+    }
+}
+@keyframes apprightbot{
+    0%{
+        opacity: 0;
+        transform: translateY(500px);
+        border-radius: 50px;
+    }
+    30%{
+        opacity: 1;
+        transform: translateY(0);
+    }
+    50% {
+        border-radius: 50px;
+    }
+    80%{
+        transform: rotate(-45deg);
+        border-radius: 30px;
+    }
+    100%{
+        transform:rotate(-45deg)  scaleX(5);
+    }
+}
+
+
+.box{
+    width: 45px;
+    height: 45px;
+    background-color: darksalmon;
+    position: absolute;
+    margin: auto;
+    transition: background-color .25s .1s ease-in-out;
+}
+.bleftbot{
+    position: absolute;
+    top: 544px;
+    left: 300px;
+    margin: auto;
+    animation: appleftbot 3s 0.5s both; 
+}
+.brightbot{
+    position: absolute;
+    top: 544px;
+    right: 300px;
+    margin: auto;
+    animation: apprightbot 3s 0.5s both;
+}
+.blefttop{
+    position: absolute;
+    top: 416px;
+    right: 300px;
+    margin: auto;
+    animation: applefttop 3s 0.5s both; 
+}
+.brighttop{
+    position: absolute;
+    top: 416px;
+    left: 300px;
+    margin: auto;
+    animation: apprighttop 3s 0.5s both;
 }
