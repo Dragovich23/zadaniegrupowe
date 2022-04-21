@@ -52,6 +52,12 @@ background: linear-gradient(120deg, darksalmon, #E97A95);
     border-radius: 10px;
     padding: 3px;
 }
+.carousel-autor{
+  color: black;
+  background-color: #ffffffa8;
+  border-radius: 10px;
+  padding: 1px;
+}
 .ranking-karty{
     display: flex;  
     flex-wrap: wrap;
@@ -203,7 +209,7 @@ background: linear-gradient(120deg, darksalmon, #E97A95);
   /* amogus */
   
   .karta{
-    height: 388px;
+    height: 420px;
     width: 200px;
     margin: 5px;
     background: rgb(231,69,92); 
@@ -217,7 +223,9 @@ background: linear-gradient(120deg, darksalmon, #E97A95);
     position:absolute; 
     bottom: 24px;
   }
-
+  a.kartaz {
+    color: whitesmoke;
+  }
 
 
 
