@@ -138,129 +138,7 @@ background: linear-gradient(120deg, darksalmon, #E97A95);
   }
 
 
-/* Animacja */
-@keyframes applefttop{
-    0%{
-        opacity: 0;
-        transform: translateY(500px);
-        border-radius: 50px;
-    }
-    30%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    50% {
-        border-radius: 50px;
-    }
-    80%{
-        transform: rotate(45deg);
-        border-radius: 30px;
-    }
-    100%{
-        transform:rotate(45deg)  scaleX(5);
-    }
-}
-@keyframes apprighttop{
-    0%{
-        opacity: 0;
-        transform: translateY(-500px);
-        border-radius: 50px;
-    }
-    30%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    50% {
-        border-radius: 50px;
-    }
-    80%{
-        transform: rotate(-45deg);
-        border-radius: 30px;
-    }
-    100%{
-        transform:rotate(-45deg)  scaleX(5);
-    }
-}
-@keyframes appleftbot{
-    0%{
-        opacity: 0;
-        transform: translateY(-500px);
-        border-radius: 50px;
-    }
-    30%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    50% {
-        border-radius: 50px;
-    }
-    80%{
-        transform: rotate(45deg);
-        border-radius: 30px;
-    }
-    100%{
-        transform:rotate(45deg)  scaleX(5);
-    }
-}
-@keyframes apprightbot{
-    0%{
-        opacity: 0;
-        transform: translateY(500px);
-        border-radius: 50px;
-    }
-    30%{
-        opacity: 1;
-        transform: translateY(0);
-    }
-    50% {
-        border-radius: 50px;
-    }
-    80%{
-        transform: rotate(-45deg);
-        border-radius: 30px;
-    }
-    100%{
-        transform:rotate(-45deg)  scaleX(5);
-    }
-}
 
-
-.box{
-    width: 45px;
-    height: 45px;
-    background-color: darksalmon;
-    position: absolute;
-    margin: auto;
-    transition: background-color .25s .1s ease-in-out;
-}
-.bleftbot{
-    position: absolute;
-    top: 544px;
-    left: 300px;
-    margin: auto;
-    animation: appleftbot 3s 0.5s both; 
-}
-.brightbot{
-    position: absolute;
-    top: 544px;
-    right: 300px;
-    margin: auto;
-    animation: apprightbot 3s 0.5s both;
-}
-.blefttop{
-    position: absolute;
-    top: 416px;
-    right: 300px;
-    margin: auto;
-    animation: applefttop 3s 0.5s both; 
-}
-.brighttop{
-    position: absolute;
-    top: 416px;
-    left: 300px;
-    margin: auto;
-    animation: apprighttop 3s 0.5s both;
-}
 
 .kontener-siatka{
     display: grid; 
@@ -344,12 +222,11 @@ background: linear-gradient(120deg, darksalmon, #E97A95);
 
 
 
-
   /* Formularz kontaktowy */
   /* Formularz kontaktowy */
   /* Formularz kontaktowy */
 
-  .form-positioning{
+  .form-positioning {
       padding: 10px;
       margin-left: 2%;
       margin-right: 2%;
