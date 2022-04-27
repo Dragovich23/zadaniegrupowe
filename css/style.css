@@ -242,12 +242,7 @@ p.autor {
 
   .form-positioning {
       padding: 10px;
-      margin-left: 2%;
-      margin-right: 2%;
-      margin-bottom: 1%;
-      margin-top: 1%;
-     border: 1px solid darksalmon;
-     width: 40%;
+     width: 75vw;
      margin: auto;
   }
 .input-style{
@@ -255,13 +250,24 @@ p.autor {
     color: darksalmon;
     border: 1px solid #222425;
 }
-
-
+.input-style:focus, .input-style2:focus{
+  background-color: #3c4144;
+  color: darksalmon;
+}
+.input-style2{
+  background-color: #3c4144;
+  color: #8e8e8e;
+  border: 1px solid #222425;
+}
+.input-style::placeholder, .input-style2::placeholder{
+  color: #8e8e8e;
+}
 
 /*PRZYCISK*/
 
 .srodek{
     justify-content: center;
+    align-items: center;
 }
 
 .button-64 {
@@ -322,14 +328,16 @@ p.autor {
 .onas-main {
   display: grid;
   grid-template-columns: repeat(2, 1fr);
-  grid-template-rows: repeat(2, 1fr) 3fr;
-  grid-column-gap: 10px;
+  grid-template-rows: repeat(2, 13vh) 3fr;
+  grid-column-gap: 100px;
   grid-row-gap: 10px;
+  padding: 50px;
   }
   
 .onas-tytul{
   grid-area: 1 / 1 / 2 / 3;
   color: darksalmon;
+  height: 5px;
   }
 .onas-opis{
   grid-area: 2 / 1 / 3 / 3;
@@ -351,10 +359,16 @@ p.autor {
     grid-row-gap: 0px;
     }
     
-    .onas-zdjarticle { grid-area: 1 / 1 / 2 / 2; }
+    .onas-zdjarticle {
+      grid-area: 1 / 1 / 2 / 2;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items :center;
+    }
     .onas-opisarticle { grid-area: 2 / 1 / 3 / 2; }
     .onas-zdjarticle > img{
-      justify-content: center;
+      margin-bottom: 5%;
     }
     .onas-opis > article{
       margin-left: 30%;
@@ -362,4 +376,12 @@ p.autor {
     }
     .onas-tytul > h2{
       text-align: center;
+    }
+    .spanttl{
+      text-align: center;
+      width: 100vw;
+      color: darksalmon;
+    }
+    .darksalmon{
+      color: darksalmon;
     }

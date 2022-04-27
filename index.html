@@ -13,7 +13,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="shortcut icon" href="./icon.png" type="image/x-icon">
+    <link rel="shortcut icon" href="./icon.ico" type="image/x-icon">
 </head>
 <body>
 
@@ -23,9 +23,9 @@
 
     <header>
       <!--                    Navbar                       -->
-      <nav class="navbar navbar-dark">
+      <nav class="navbar navbar-dark custom-google-font">
         <div class="container-fluid">
-          <a class="navbar-brand custom-google-font" href="https://www.dragovich.dk" style="color: rgba(55, 55, 55, 0.75); font-size: 200%;"><b>Top 5 Gryzoni</b></a>
+          <a class="navbar-brand" href="#" style="color: rgba(55, 55, 55, 0.75); font-size: 200%;"><b>Top 5 Gryzoni</b></a>
           <button class="navbar-toggler ml-auto custom-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
             <span class="navbar-toggler-icon"></span>
           </button>
@@ -37,7 +37,7 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
                 <li class="nav-item">
-                  <a class="nav-link active" aria-current="page" href="https://www.dragovich.dk" style="color: rgba(55, 55, 55, 0.90);">Strona główna</a>
+                  <a class="nav-link active" aria-current="page" href="#" style="color: rgba(55, 55, 55, 0.90);">Strona główna</a>
                 </li><br>
                 <li class="nav-item">
                   <a class="nav-link" href="./formkontakt.html" style="color: rgba(55, 55, 55, 0.90);">Formularz kontaktowy</a>
@@ -67,8 +67,8 @@
                     <li>
                       <hr class="dropdown-divider">
                     </li>
-                    <li><a class="dropdown-header text-black h4" style="color: rgba(55, 55, 55, 0.90);">5. Bober Janek</a></li>
-                    <li><a class="dropdown-item" href="https://www.lasy.gov.pl/pl/edukacja/lesnoteka-1/ssaki/bobr-europejski" style="color: rgba(55, 55, 55, 0.90);">Źródło informacji o tym zwierzęciu</a></li>
+                    <li><a class="dropdown-header text-black h4" style="color: rgba(55, 55, 55, 0.90);">5. Bóbr Kanadyjski</a></li>
+                    <li><a class="dropdown-item" href="http://projekty.gdos.gov.pl/igo-castor-canadensis" style="color: rgba(55, 55, 55, 0.90);">Źródło informacji o tym zwierzęciu</a></li>
                   </ul>
                 </li>
               </ul>
@@ -81,7 +81,7 @@
     <main>
 
       <div class="kontener-siatka">
-        <div class="empty">1</div>
+        <div class="empty"><img src="./img/wixa.gif" style="width: 261px; height: 622px;"></div>
         <!--SLIDER-->
         <div class="slider">
           <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
@@ -129,7 +129,7 @@
 
 <div><br><br><br><br></div>
 
-<div class="ranking-karty">
+<div class="ranking-karty custom-google-font">
   <div class="top1">
     <div class="card karta">
       <img src="./img/1079px-Capivara(Hydrochoerus_hydrochaeris).jpg" class="card-img-top kartazdjecie" alt="1. Kapibara Wielka">
@@ -148,7 +148,7 @@
       <div class="card-body">
         <h5 class="card-title">2. Szczur Wędrowny</h5>
         <p class="card-text">Oryginalnie wywodzi się z Azji Południowo-Wschodniej, jednak dzięki człowiekowi skolonizował wszystkie kontynenty poza antarktydą.</p>
-        <a href="#" class="btn btn-dark klej">Więcej informacji...</a>
+        <a href="#szczur" class="btn btn-dark klej">Więcej informacji...</a>
       </div>
     </div>
   </div>
@@ -159,7 +159,7 @@
       <div class="card-body">
         <h5 class="card-title">3. Skoczanka przylądkowa</h5>
         <p class="card-text">Dzięki specjalnym procesom metabolicznym, całą potrzebną im wodę uzyskują z pożywienia.</p>
-        <a href="#" class="btn btn-dark klej">Więcej informacji...</a>
+        <a href="#gerbil" class="btn btn-dark klej">Więcej informacji...</a>
       </div>
     </div>
   </div>
@@ -170,7 +170,7 @@
       <div class="card-body">
         <h5 class="card-title">4. Nieświszczuk Płowy</h5>
         <p class="card-text">System komunikatów używany przez te Pieski Preriowe uważany jest za jeden z najbardziej zaawansowanych wśród zwierząt.</p>
-        <a href="#" class="btn btn-dark klej">Więcej informacji...</a>
+        <a href="#piesek" class="btn btn-dark klej">Więcej informacji...</a>
       </div>
     </div>
   </div>
@@ -181,7 +181,7 @@
       <div class="card-body">
         <h5 class="card-title">5. Bóbr Kanadyjski</h5>
         <p class="card-text">Największa zbudowana przez niego tama miała długość 700m i była w stanie utrzymać konia z jeźdźcem!</p>
-        <a href="#" class="btn btn-dark klej">Więcej informacji...</a>
+        <a href="#bubr" class="btn btn-dark klej">Więcej informacji...</a>
       </div>
     </div>
   </div>
@@ -206,7 +206,7 @@
         </div>
         
         <br>
-        <div class="kontener">
+        <div class="kontener" id="szczur">
           <img src="https://img.redro.pl/obrazy/capybara-700-219670412.jpg" class="img-fluid" alt="carpincho">
           <div class="srodek bezramki">
               <p class="text-center srodek custom-google-font" >
@@ -224,22 +224,51 @@
             <br>
           </div>
           <br>
-          <div class="kontener">
+          <div class="kontener" id="gerbil">
             <img src="https://img.redro.pl/obrazy/capybara-700-219670412.jpg" class="img-fluid" alt="carpincho">
             <div class="srodek bezramki">
                 <p class="text-center srodek custom-google-font" >
-                  <b></b> 
-
-
-                  
+                  <b>Skoczanka przylądkowa</b> (Desmodillus auricularis) to wszystkożerny gryzoń z rodziny myszowatych występujący w Afryce Południowej. 
+                  Są zwierzętami bardzo aspołecznymi, żyją samotnie, jednakże ich nory mogą znajdować się w bliskim sąsiedztwie, lub nawet być połączone.
+                  Nazwa naukowa pochodzi od słów "desmos" (gr. „kajdany, więzi, łańcuch”), łac. przyrostka zdrabniającego "illus", "auricularis" (średniowiecznołac. „ucho, uszaty”). <br>
+                    Ciało skoczanki jest małe i krępe, z ciałem dłuższym od ogona. Czaszka charakteryzuje się bardzo dużymi puszkami bębenkowymi
+                  (41% długości czaszki), które umożliwiają skoczance usłyszenie szybującej sowy. <br>
+                    Dzięki byciu niezależnym od wody, skoczanki mogą się w stanie rozmnażać cały rok jeśli warunki są sprzyjające. Ciąża, tak jak u szczura wędrownego, trwa 21 dni. Skutkuje zazwycza 4 nagimi, ślepymi i głuchymi młodymi.
+                  Oczy otwierają dopiero po 3 tygodniach, po około 5 odstawiane są od piersi. <br>
+                    Skoczanki kopią zaawansowane systemy nor ze ślepymi korytarzami i komorami do magazynowania pożywienia, z 1 do 7 wejść.
                 </p>
             </div>
               <br>
             </div>
+            <br>
+            <div class="kontener" id="piesek">
+              <img src="https://img.redro.pl/obrazy/capybara-700-219670412.jpg" class="img-fluid" alt="carpincho">
+              <div class="srodek bezramki">
+                  <p class="text-center srodek custom-google-font" >
+                    <b>Nieświszczuk płowy</b> (Cynomys gunnisoni) to roślinożerny gryzoń z rodziny wiewiórkowatych występujący w regione tzw. Czterech Rogów w Stanach Zjednoczonych.
+                    Piesi Preriowe są zwierzętami skrajnie społecznymi, występują w grupach liczących kilkaset osobników. Grupy te podzielone są w pomniejsze społeczności bądź samotne osobniki.
+                    Oryginalna angielska nazwa, Gunnison's praire dog pochodzi od amerykańskiego oficera Johna Williamsa Gunnisona. Nazwa naukowa Cynomys pochodz od słów "kunos" (gr. pies), "muos" (gr. "mysz"). <br>
+                      Ich podłużne, krępe ciało pozwala na poruszanie się w ciasnych tunelach. Wyróżniają się również tym, że jako jedyny gatunek pieska preriowego ma 40 chromosomów zamiast 50. Dzięki ich rozległych systemach tuneli,
+                    obszary ich rezydowania porastają nowymi roślinami oraz zostają nawilżone.<br>
+                      Okres godowy trwa jedynie 3 miesiące, a ciąża - około 30 dni. Nieświszczuki rozmnażają się pod ziemia, a ciąża zazwyczaj skutkuje 4-5 młodymi. Młode na czas karmienia piersią pozostają w norach. <br>
+                      
+                  </p>
+              </div>
+                <br>
+              </div>
+              <br><div class="kontener" id="bubr">
+                <img src="https://img.redro.pl/obrazy/capybara-700-219670412.jpg" class="img-fluid" alt="carpincho">
+                <div class="srodek bezramki">
+                    <p class="text-center srodek custom-google-font" >
+                      <b></b>
+                    </p>
+                </div>
+                  <br>
+                </div>
     </main>
-    <div class="footer-basic">
+    <div class="footer-basic custom-google-font">
       <footer>
-          <div class="social"><a data-bs-toggle="tooltip" data-bs-placement="top" title="Repozytorium" href="https://github.com/Dragovich23/zadaniegrupowe ">
+          <div class="social"><a data-bs-toggle="tooltip" data-bs-placement="top" title="Repozytorium" href="https://github.com/Dragovich23/zadaniegrupowe" target="_blank">
             <i class="icon ion-social-github"></i></a><a data-bs-toggle="tooltip" data-bs-placement="top" title="Pobierz pliki z repozytorium" 
               href="https://github.com/Dragovich23/zadaniegrupowe/archive/refs/heads/main.zip"><i class="icon ion-code-download"></i></a><a data-bs-toggle="tooltip" 
               data-bs-placement="top" title="Kontakt z autorem" href="mailto:lukaszzys1@gmail.com">
@@ -249,7 +278,7 @@
               <li class="list-inline-item"><a href="./formkontakt.html">Kontakt</a></li>
               <li class="list-inline-item"><a href="./onas.html">O nas</li>
           </ul>
-          <p class="copyright">DragoKuma© 2022</p>
+          <p class="copyright">2022 - Dragovich & Kuma&copy;</p>
       </footer>
   </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
